@@ -2,23 +2,14 @@
 
 A modern React-based e-commerce application for clothing stores.
 
-## Features
+## Live Demo
+Visit the live application at: https://vadtyavathsuresh.github.io/clothsstore
 
-- User authentication
-- Product browsing
-- Shopping cart functionality
-- Responsive design
-
-## Prerequisites
-
-- Node.js (v14 or higher)
-- npm (v6 or higher)
-
-## Installation
+## Quick Start
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/clothsstore.git
+git clone https://github.com/VadtyavathSuresh/clothsstore.git
 cd clothsstore
 ```
 
@@ -27,23 +18,19 @@ cd clothsstore
 npm install
 ```
 
-## Running the Application
-
-### Development Mode
-
+3. Start the application:
 ```bash
 npm start
 ```
 
-The application will be available at http://localhost:3000
+The application will run at http://localhost:3000
 
-### Production Build
+## Features
 
-```bash
-npm run build
-```
-
-This will create an optimized production build in the `build` folder.
+- User authentication
+- Product browsing
+- Shopping cart functionality
+- Responsive design
 
 ## Project Structure
 
@@ -57,6 +44,24 @@ clothsstore/
 ├── package.json     # Dependencies and scripts
 └── README.md        # This file
 ```
+
+## Running Locally
+
+1. Make sure you have Node.js installed (v14 or higher)
+2. Clone this repository
+3. Run `npm install` to install dependencies
+4. Run `npm start` to start the development server
+5. Open http://localhost:3000 in your browser
+
+## Deployment
+
+To deploy the application:
+
+```bash
+npm run build
+```
+
+This will create a production-ready build in the `build` folder.
 
 ## Dependencies
 
@@ -73,3 +78,7 @@ Core dependencies are listed in `dependencies.json`. For detailed information ab
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Vadtyavath Suresh - [@VadtyavathSuresh](https://github.com/VadtyavathSuresh)
