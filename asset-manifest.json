@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/clothsstore/static/css/main.ead37479.css",
+    "main.js": "/clothsstore/static/js/main.b5e22e13.js",
+    "static/css/207.52da3103.chunk.css": "/clothsstore/static/css/207.52da3103.chunk.css",
+    "static/js/207.0f7b99bc.chunk.js": "/clothsstore/static/js/207.0f7b99bc.chunk.js",
+    "static/css/504.ae8375be.chunk.css": "/clothsstore/static/css/504.ae8375be.chunk.css",
+    "static/js/504.45c94eae.chunk.js": "/clothsstore/static/js/504.45c94eae.chunk.js",
+    "static/js/27.d86113fb.chunk.js": "/clothsstore/static/js/27.d86113fb.chunk.js",
+    "static/js/38.ed957f12.chunk.js": "/clothsstore/static/js/38.ed957f12.chunk.js",
+    "index.html": "/clothsstore/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.ead37479.css",
+    "static/js/main.b5e22e13.js"
+  ]
+}
