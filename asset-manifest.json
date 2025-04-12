@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/clothsstore/static/css/main.ead37479.css",
-    "main.js": "/clothsstore/static/js/main.b5e22e13.js",
-    "static/css/207.52da3103.chunk.css": "/clothsstore/static/css/207.52da3103.chunk.css",
-    "static/js/207.0f7b99bc.chunk.js": "/clothsstore/static/js/207.0f7b99bc.chunk.js",
-    "static/css/504.ae8375be.chunk.css": "/clothsstore/static/css/504.ae8375be.chunk.css",
-    "static/js/504.45c94eae.chunk.js": "/clothsstore/static/js/504.45c94eae.chunk.js",
-    "static/js/27.d86113fb.chunk.js": "/clothsstore/static/js/27.d86113fb.chunk.js",
-    "static/js/38.ed957f12.chunk.js": "/clothsstore/static/js/38.ed957f12.chunk.js",
-    "index.html": "/clothsstore/index.html"
+    "main.css": "/clothsstore/static/css/main.14c02c32.css",
+    "main.js": "/clothsstore/static/js/main.cec570a0.js",
+    "static/css/719.c4cf383a.chunk.css": "/clothsstore/static/css/719.c4cf383a.chunk.css",
+    "static/js/719.e88a45d3.chunk.js": "/clothsstore/static/js/719.e88a45d3.chunk.js",
+    "static/css/732.4fab87c9.chunk.css": "/clothsstore/static/css/732.4fab87c9.chunk.css",
+    "static/js/732.4553092d.chunk.js": "/clothsstore/static/js/732.4553092d.chunk.js",
+    "static/js/787.05f06360.chunk.js": "/clothsstore/static/js/787.05f06360.chunk.js",
+    "static/js/150.5d784a52.chunk.js": "/clothsstore/static/js/150.5d784a52.chunk.js",
+    "index.html": "/clothsstore/index.html",
+    "main.14c02c32.css.map": "/clothsstore/static/css/main.14c02c32.css.map",
+    "main.cec570a0.js.map": "/clothsstore/static/js/main.cec570a0.js.map",
+    "719.c4cf383a.chunk.css.map": "/clothsstore/static/css/719.c4cf383a.chunk.css.map",
+    "719.e88a45d3.chunk.js.map": "/clothsstore/static/js/719.e88a45d3.chunk.js.map",
+    "732.4fab87c9.chunk.css.map": "/clothsstore/static/css/732.4fab87c9.chunk.css.map",
+    "732.4553092d.chunk.js.map": "/clothsstore/static/js/732.4553092d.chunk.js.map",
+    "787.05f06360.chunk.js.map": "/clothsstore/static/js/787.05f06360.chunk.js.map",
+    "150.5d784a52.chunk.js.map": "/clothsstore/static/js/150.5d784a52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ead37479.css",
-    "static/js/main.b5e22e13.js"
+    "static/css/main.14c02c32.css",
+    "static/js/main.cec570a0.js"
   ]
 }
