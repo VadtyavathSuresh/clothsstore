@@ -1,0 +1,33 @@
+{
+  "project": {
+    "name": "clothsstore",
+    "version": "0.1.0",
+    "type": "react-application"
+  },
+  "core_dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "6.30.0",
+    "redux": "4.2.1",
+    "react-redux": "7.2.9",
+    "axios": "0.25.0"
+  },
+  "development_dependencies": {
+    "testing": {
+      "jest-dom": "5.16.1",
+      "react-testing": "12.1.2",
+      "user-event": "13.5.0"
+    },
+    "monitoring": {
+      "web-vitals": "2.1.4"
+    }
+  },
+  "build_tools": {
+    "react-scripts": "5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test"
+  }
+} 

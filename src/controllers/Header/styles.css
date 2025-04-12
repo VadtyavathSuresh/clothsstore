@@ -1,0 +1,117 @@
+.header {
+  min-height: 60px;
+  display: flex;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header_icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.header_icon a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: 22px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.header_icon a:hover {
+  color: #3498db;
+  background-color: #f0f2f5;
+}
+.header__subcontainer {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  margin: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__cart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.header__cart:hover {
+  background-color: #f0f2f5;
+}
+.header__cart.active {
+  background-color: #e8f0fe;
+  color: #3498db;
+}
+.cart-icon {
+  position: relative;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+.header__cart:hover .cart-icon {
+  transform: scale(1.1);
+}
+.product__count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 12px;
+  min-width: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.header__cart:hover .product__count {
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 480px) {
+  .header__subcontainer {
+    margin: 0 10px;
+  }
+  .header_icon a {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+  .cart-icon {
+    font-size: 24px;
+  }
+  .product__count {
+    font-size: 12px;
+    padding: 1px 5px;
+    min-width: 16px;
+    top: -6px;
+    right: -10px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .header__subcontainer {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .header {
+    position: relative;
+  }
+  .header_icon,
+  .header__cart {
+    justify-content: center;
+    padding: 8px 0;
+  }
+  .header_icon {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+  }
+}
